@@ -48,7 +48,7 @@ html {
 }
 
 .desktop-navbar-item a:hover {
-  color: #FFFFFF;
+  color: #D02126;
 }
 
 .mobile-navbar-icon {
@@ -61,7 +61,7 @@ html {
 }
 
 .mobile-navbar {
-  z-index: 100;
+  z-index: 99;
 }
 
 .mobile-navbar-nav {
@@ -91,14 +91,23 @@ html {
   background-image: url('images/Leaves.png');
   background-position: center;
   background-size: cover;
+  z-index: 1;
+}
+
+.whitespace {
+  height: 15vh;
+  width: 100vw;
+  max-width: 100%;
+  background-color: white;
 }
 
 .info-box {
-  margin: 1vw 4vw;
+  margin: 3vh 4vw 3vh 4vw;
   padding: 3vw;
   max-width: 100%;
   vertical-align: middle;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  z-index: 99;
 }
 
 .info-box-icon {
@@ -111,6 +120,15 @@ html {
 .info-box-info {
   margin: 2vw 0vw;
   color: gray;
+}
+
+.normal-box {
+  margin: 5vh 0vh;
+  padding: 3vw;
+  border: 0;
+  width: 100vw;
+  max-width: 100%;
+  background-color: #D02126;
 }
 
 .story-box {
@@ -162,6 +180,12 @@ h2 {
   font-weight: 600;
   color: white;
   text-align: center;
+}
+
+h4 {
+  font-family: 'Amiko', sans-serif; 
+  color: white;
+  font-size: 16px;
 }
 
 h5 {
