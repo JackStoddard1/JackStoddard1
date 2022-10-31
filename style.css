@@ -114,7 +114,7 @@ ul {
 
 .price-main {
   width: 100vw;
-  height: 160vh;
+  height: 170vh;
   max-width: 100%;
   position: relative;
   background-color: #ECE9EC;
@@ -157,7 +157,7 @@ ul {
 
 .price-left-floral {
   position: absolute;
-  height: 160vh;
+  height: 170vh;
   left: 0%;
   bottom: 0%;
   z-index: 3;
@@ -181,7 +181,7 @@ ul {
 
 .price-right-floral {
   position: absolute;
-  height: 160vh;
+  height: 170vh;
   right: 0%;
   bottom: 0%;
   z-index: 3;
