@@ -134,7 +134,7 @@ ul {
   z-index: 1;
 }
 
-@media (min-width: 768px) { /* Tablet View*/
+@media (min-width: 1200px) { /* Tablet View*/
   .about-main {
     height: 100vh;
   }
@@ -369,7 +369,7 @@ p.prices-header {
   padding: 0;
   top: 400px;
   width: 90vw;
-  left: 5vw;
+  left: 7vw;
   max-width: 100%;
   background-color: rgba(255,255,255,0.8);
   z-index: 5;
@@ -420,7 +420,6 @@ p.prices-header {
 }
 
 .price-box-info {
-  right: 0;
   display: block;
 }
 
@@ -509,27 +508,30 @@ p.about-header {
 }
 
 .about-info-box {
-  padding: 3vh 2vw;
   position: absolute;
-  top: 300px;
-  left: 5vw;
-  width: 90vw;
-  max-width: 100%;
-  background-color: rgba(255,255,255,0.8);
+  top: 280px;
   z-index: 5;
+  width: 80vw;
+  left: 10vw;
+  max-width: 100%;}
+
+.about-info-box img {
+  width: 450px;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  object-fit: scale-down;
+}
+
+.about-info {
+  background-color: rgba(255,255,255,0.8);
 }
 
 @media (min-width: 768px) { /* Tablet View*/
   .about-info-box {
+    top: 300px;
     left: 10vw;
     width: 80vw;
-  }
-}
-
-@media (min-width: 1200px) { /* Desktop View*/
-  .about-info-box {
-    left: 20vw;
-    width: 60vw;
   }
 }
 
