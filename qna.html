@@ -61,18 +61,18 @@ function changeIcon() {
   <img class="d-none d-md-block d-lg-block home-right-leaves" src="images\leaves-back-right.png" alt="right-leaves">
 </div>
 
-<div class="qna-accordion accordion accordion-flush">
+<div class="qna-accordion accordion accordion-flush" id="qna-accordion-id">
   <div class="row justify-content-center m-0">
     <div class="qna-card card" id="qna-q1">
       <div class="card-header" id="qna-header-q1">
         <h2 class="mb-0">
-          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#qna-body-q1" aria-expanded="false" aria-controls="qna-body-q1">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#qna-body-q1" data-parent="#qna-accordion-id" aria-expanded="false" aria-controls="qna-body-q1">
             Do you have a parking lot?
           </button>
         </h2>
       </div>
 
-      <div id="qna-body-q1" class="collapse" aria-labelledby="qna-header-q1" data-parent="#qna-q1">
+      <div id="qna-body-q1" class="collapse" aria-labelledby="qna-header-q1" data-parent="#qna-accordion-id">
         <div class="card-body">
           We do not have a parking lot, please use metered parking on the street. We recommend getting here early as it gets crowded.
         </div>
@@ -82,13 +82,13 @@ function changeIcon() {
     <div class="qna-card card" id="qna-q2">
       <div class="card-header" id="qna-header-q2">
         <h2 class="mb-0">
-          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#qna-body-q2" aria-expanded="false" aria-controls="qna-body-q2">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#qna-body-q2" aria-expanded="false" data-parent="#qna-accordion-id" aria-controls="qna-body-q2">
             What is Shiatsu?
           </button>
         </h2>
       </div>
 
-      <div id="qna-body-q2" class="collapse" aria-labelledby="qna-header-q2" data-parent="#qna-q2">
+      <div id="qna-body-q2" class="collapse" aria-labelledby="qna-header-q2" data-parent="#qna-accordion-id">
         <div class="card-body">
           Shiatsu is a massage technique unique to Japan that originates from traditional asian medicine. It is based on bodywork techniques from Thailand and China that uses pressure points to relieve the body inside out. And in Japanese (指圧 or しあつ) it means "finger pressure" due to being a form of acupuncture that utilizes the fingers instead of needles. Where and how quickly the pressure is applied is changed slowly according to the body’s state, bringing it into balance and relieving it of fatigue. 
         </div>
@@ -104,7 +104,7 @@ function changeIcon() {
         </h2>
       </div>
 
-      <div id="qna-body-q3" class="collapse" aria-labelledby="qna-header-q3" data-parent="#qna-q3">
+      <div id="qna-body-q3" class="collapse" aria-labelledby="qna-header-q3" data-parent="#qna-accordion-id">
         <div class="card-body">
           Shiatsu addresses various concerns and needs in modern society, such as improving chronic conditions, maintaining daily health, and preventing illness. Specifically, it is effective for back pain, stiff shoulders, sensitivity to cold, headache, indigestion, loss of appetite, constipation, menstrual pain, sciatica, etc.
         </div>
@@ -120,7 +120,7 @@ function changeIcon() {
         </h2>
       </div>
 
-      <div id="qna-body-q4" class="collapse" aria-labelledby="qna-header-q4" data-parent="#qna-q4">
+      <div id="qna-body-q4" class="collapse" aria-labelledby="qna-header-q4" data-parent="#qna-accordion-id">
         <div class="card-body">
           For more sensitive individuals it can hurt, however it is more of a relieving sensation. And per the customer's request we can gradually work from a lighter to deeper massage to ensure a more comfortable experience. Please don't hesitate to let me know if anything is too uncomfortable.
         </div>
@@ -137,7 +137,7 @@ function changeIcon() {
           </h2>
         </div>
 
-        <div id="qna-body-q5" class="collapse" aria-labelledby="qna-header-q5" data-parent="#qna-q5">
+        <div id="qna-body-q5" class="collapse" aria-labelledby="qna-header-q5" data-parent="#qna-accordion-id">
           <div class="card-body">
             We are currently only booking via phone, please text (510) 684-0386. We will reply as soon as possible, between the hours of 10AM to 7PM. A reminder will be sent to confirm your booking two days in advance. While we are in the process of creating online reservations, we apologize for the inconvenience. 
           </div>
@@ -154,7 +154,7 @@ function changeIcon() {
         </h2>
       </div>
 
-      <div id="qna-body-q6" class="collapse" aria-labelledby="qna-header-q6" data-parent="#qna-q6">
+      <div id="qna-body-q6" class="collapse" aria-labelledby="qna-header-q6" data-parent="#qna-accordion-id">
         <div class="card-body">
           We recommend wearing loose fit clothing such as pajamas or sweatpants, there will be a private area where you can change. We also recommend removing accessories and bras.
         </div>
@@ -170,7 +170,7 @@ function changeIcon() {
         </h2>
       </div>
 
-      <div id="qna-body-q7" class="collapse" aria-labelledby="qna-header-q7" data-parent="#qna-q7">
+      <div id="qna-body-q7" class="collapse" aria-labelledby="qna-header-q7" data-parent="#qna-accordion-id">
         <div class="card-body">
           We are currently cash only, sorry for the inconvenience. 
         </div>
@@ -186,7 +186,7 @@ function changeIcon() {
         </h2>
       </div>
 
-      <div id="qna-body-q8" class="collapse" aria-labelledby="qna-header-q8" data-parent="#qna-q8">
+      <div id="qna-body-q8" class="collapse" aria-labelledby="qna-header-q8" data-parent="#qna-accordion-id">
         <div class="card-body">
           There will not be a fee so long as the reservation is cancelled 24 hours in advance. However, there will be a $50 charge within 24 hours. And in the case that the reservation was never canceled, there will be a $100 charge.
         </div>
@@ -202,7 +202,7 @@ function changeIcon() {
         </h2>
       </div>
 
-      <div id="qna-body-q9" class="collapse" aria-labelledby="qna-header-q9" data-parent="#qna-q9">
+      <div id="qna-body-q9" class="collapse" aria-labelledby="qna-header-q9" data-parent="#qna-accordion-id">
         <div class="card-body">
           Service will be provided within the scheduled time. Please note that there will not be any discounts or extensions for late arrivals.
         </div>
