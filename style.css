@@ -123,6 +123,23 @@ ul {
   z-index: 1;
 }
 
+.about-main {
+  width: 100vw;
+  height: 140vh;
+  max-width: 100%;
+  position: relative;
+  background-color: #ECE9EC;
+  background-image: url('images/paper-background.png');
+  overflow: hidden;
+  z-index: 1;
+}
+
+@media (min-width: 768px) { /* Tablet View*/
+  .about-main {
+    height: 100vh;
+  }
+}
+
 .home-left-leaves {
   position: absolute;
   height: 100vh;
