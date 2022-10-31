@@ -52,7 +52,7 @@ ul {
 .mobile-navbar-nav {
   position: fixed;
   padding: 0;
-  background-color: #ECE9E4;
+  background-color: rgba(236, 233, 228, 0.9);
   width: 100vw;
   max-width: 100%;
   z-index: 99;
@@ -280,11 +280,22 @@ ul {
   height: 7vh;
 }
 
+.location-box-img {
+  overflow: hidden;
+}
+
 .location-box img {
   margin: auto;
   max-height: 100%;
+  min-width: 100%;
   max-width: 100%;
   display: flex;
+  transition: transform .2s;
+  object-fit: cover;
+}
+
+.location-box img:hover {
+  transform: scale(1.1);
 }
 
 .location-box-info {
@@ -309,7 +320,7 @@ p.location-text {
 
 p.prices-header {
   font-family: 'Dancing Script', cursive;
-  font-size: 90px;
+  font-size: 80px;
   display: inline;
   text-shadow:  5px 4px 25px rgba(236, 222, 236, 1), 
                 5px 4px 25px rgba(236, 222, 236, 1), 
@@ -454,7 +465,7 @@ p.qna-logo-2 {
 
 p.about-header {
   font-family: 'Dancing Script', cursive;
-  font-size: 120px;
+  font-size: 110px;
   display: inline;
   text-shadow:  5px 4px 25px rgba(236, 222, 236, 1), 
                 5px 4px 25px rgba(236, 222, 236, 1), 
