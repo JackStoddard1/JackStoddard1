@@ -240,12 +240,31 @@ ul {
   color: gray;
 }
 
-.benefits-box {
-  margin: 0vh 20vw 10vh 20vw;
+.shiatsu-info-box {
+  margin: 5vh 10vw 0vh 10vw;
+  max-width: 100%;
 }
 
-.test-1 {
-  overflow: hidden;
+.shiatsu-info-col {
+  padding: 2vh 0vw;
+}
+
+.shiatsu-info-box img {
+  border-radius: 10px;
+  height: 400px;
+  min-width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) { /* Tablet View*/
+  .shiatsu-info-box {
+    margin: 5vh 18vw 0vh 18vw;
+  }
+}
+
+.benefits-box {
+  margin: 0vh 20vw 10vh 20vw;
 }
 
 .benefits-box-img {
@@ -335,7 +354,7 @@ p.prices-header {
   width: 90vw;
   left: 5vw;
   max-width: 100%;
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255,255,255,0.8);
   z-index: 5;
 }
 
@@ -479,7 +498,7 @@ p.about-header {
   left: 5vw;
   width: 90vw;
   max-width: 100%;
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255,255,255,0.8);
   z-index: 5;
 }
 
