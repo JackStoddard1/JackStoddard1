@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Rei Shiatsu - About Me</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amiko:wght@700&family=Bebas+Neue:wght@400&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <title class="l10n">Rei Shiatsu - About Me</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@700&family=Bebas+Neue:wght@400&family=Dancing+Script:wght@700&family=Noto+Sans+JP:wght@500&family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
+</head>
 
 <nav class="d-none d-lg-block">
   <ul class="desktop-navbar">
-    <li class="desktop-navbar-item"><a href="index.html">HOME</a></li>
-    <li class="desktop-navbar-item"><a href="qna.html">Q&A</a></li>
-    <li class="desktop-navbar-item"><a href="prices.html">PRICES</a></li>
-    <li class="desktop-navbar-item"><a href="about.html">ABOUT ME</a></li>
+    <li class="desktop-navbar-item"><a class="l10n" href="index.html">HOME</a></li>
+    <li class="desktop-navbar-item"><a class="l10n" href="qna.html">QUESTIONS</a></li>
+    <li class="desktop-navbar-item"><a class="l10n" href="prices.html">PRICES</a></li>
+    <li class="desktop-navbar-item"><a class="l10n" href="about.html">ABOUT ME</a></li>
+    <li class="desktop-navbar-item"><p> </p></a></li>
+    <li class="desktop-navbar-item"><input class="english-button l10n" type="button" id="swap-lang-en"></li>
+    <li class="desktop-navbar-item"><p>|</p></a></li>
+    <li class="desktop-navbar-item"><input class="japanese-button l10n" type="button" id="swap-lang-jp"></li>
   </ul>
 </nav>
 
@@ -28,10 +28,14 @@
   <input type="image" src="assets\list.svg" alt="menu-icon" class="mobile-navbar-icon" data-toggle="collapse" data-target="#mobile-navbar" aria-expanded="false" aria-controls="mobile-navbar" value="1" id="icon-change" onclick="changeIcon()">
   <div class="collapse mobile-navbar" id="mobile-navbar">
     <ul class="mobile-navbar-nav">
-      <li class="mobile-navbar-item"><a href="index.html">HOME</a></li>
-      <li class="mobile-navbar-item"><a href="qna.html">Q&A</a></li>
-      <li class="mobile-navbar-item"><a href="prices.html">PRICES</a></li>
-      <li class="mobile-navbar-item"><a href="about.html">ABOUT ME</a></li>
+      <li class="mobile-navbar-item"><a class="l10n" href="index.html">HOME</a></li>
+      <li class="mobile-navbar-item"><a class="l10n" href="qna.html">QUESTIONS</a></li>
+      <li class="mobile-navbar-item"><a class="l10n" href="prices.html">PRICES</a></li>
+      <li class="mobile-navbar-item"><a class="l10n" href="about.html">ABOUT ME</a></li>
+      <li class="mobile-navbar-item">
+        <input class="english-button l10n" type="button" id="swap-lang-en-mobile">
+        <input class="japanese-button l10n" type="button" id="swap-lang-jp-mobile">
+      </li>
     </ul>
   </div>
 </nav>
@@ -61,7 +65,7 @@ function changeIcon() {
 
 
 <div class="about-header-box">
-  <p class="about-header">About Me</p>
+  <p class="about-header l10n">About Me</p>
 </div>
 
 <div class="about-info-box m-0">
@@ -70,11 +74,12 @@ function changeIcon() {
       <img src="images/profile-image.png" alt="profile-image">
     </div>
     <div class="about-info col-lg-12 col-xl-7 order-xl-1 p-4 m-0">
-      <h5>Why Shiatsu?</h5>
-      <p class="indent">I moved to America 18 years ago from Japan, and for the longest time suffered from painful stiff shoulders. But upon coming to America, I discovered relief through shiatsu, a Japanese massage therapy, which has helped me find the relief I needed. Ever since, I’ve wanted to share this revitalizing experience with others too.</p>
-      <h5>Experience</h5>
-      <p class="indent">I studied at <a href="https://mckinnonbtc.com/">McKinnon Body Therapy Center</a> I have developed my own unique style of treatment with over 10 years of experience by incorporating my understanding of Japanese folk medicine, reflex zone therapy, exercise, and Thai massage.
-      While I don’t think my English is perfect and may cause inconveniences, I will try to convey my utmost sincerity and care. </p>
+      <h5 class="l10n">Why Shiatsu?</h5>
+      <p class="indent l10n">I moved to America 18 years ago from Japan, and for the longest time suffered from painful stiff shoulders. But upon coming to America, I discovered relief through shiatsu, a Japanese massage therapy, which has helped me find the relief I needed. Ever since, I’ve wanted to share this revitalizing experience with others too.</p>
+      <h5 class="l10n">Experience</h5>
+      <span class="indent l10n">I studied at</span>
+      <a class="inline-p l10n" href="https://mckinnonbtc.com/">McKinnon Body Therapy Center</a>
+      <span class="l10n">, and I have developed my own unique style of treatment with over 10 years of experience by incorporating my understanding of Japanese folk medicine, reflex zone therapy, exercise, and Thai massage. While I don’t think my English is perfect and may cause inconveniences, I will try to convey my utmost sincerity and care.</span>
     </div>
   </div>
 </div>
@@ -83,17 +88,17 @@ function changeIcon() {
   <div class="row mt-5 ml-5 mr-5">
     <div class="col-xs-12 col-md-6">
       <div class="footer-info-1">
-        <h5>Rei Shiatsu</h5>
+        <h5 class="l10n">Rei Shiatsu</h5>
         <a href="">
           Address Line 1
-          <br> Address Line 2
+          <br> Address Line 2 <br>
         </a>
-        <br>Text: (510) 684-0386
+        <footer-info-1 class="l10n">Text: (510) 684-0386</footer-info-1> 
       </div>
     </div>
     <div class="col-xs-12 col-md-6 pr-3">
       <div class="footer-info-2">
-        <h5>Check Us Out</h5>
+        <h5 class="l10n">Check Us Out</h5>
         <!--
           <a href="https://www.facebook.com/"><img class="footer-icon" src="assets\facebook.svg" alt="facebook-icon"></a>
           <a href="https://www.instagram.com/"><img class="footer-icon" src="assets\instagram.svg" alt="instagram-icon"></a>
@@ -104,6 +109,12 @@ function changeIcon() {
   </div>
 </div>
 
-</div>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/dictionary.js"></script>
+<script src="js/jquery.l10n.js"></script>
+<script src="js/translator.js"></script>
 
 </html>

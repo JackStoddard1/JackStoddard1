@@ -45,6 +45,39 @@ html {
   color: #D02126;
 }
 
+.desktop-navbar-item p{
+  font-family: 'Amiko', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  display: block;
+  color: #3C403D;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.english-button {
+  background-image: url('images/en-flag.png');
+  background-size: cover;
+  background-color:rgba(0, 0, 0, 0.0);
+  border: 0;
+  margin: 2vh 0vw 0vh 0vw;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.japanese-button {
+  background-image: url('images/jp-flag.png');
+  background-size: cover;
+  background-color:rgba(0, 0, 0, 0.0);
+  border: 0;
+  margin: 1.7vh 0vw 0vh 0vw;
+  padding: 0;
+  height: 35px;
+  width: 35px;
+}
+
 ul {
   list-style-type: none;
 }
@@ -58,6 +91,21 @@ ul {
   z-index: 99;
 }
 
+.mobile-navbar-item {
+  position: relative;
+  font-family: 'Amiko', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  width: 100vw;
+  max-width: 100%;
+  display: block;
+  color: #3C403D;
+  text-align: center;
+  margin: -15px;
+  text-decoration: none;
+  z-index: 99;
+}
+
 .mobile-navbar-item a {
   position: relative;
   font-family: 'Amiko', sans-serif;
@@ -67,15 +115,25 @@ ul {
   max-width: 100%;
   display: block;
   color: #3C403D;
-  text-align: left;
+  text-align: center;
   padding: 14px 20px;
   text-decoration: none;
   z-index: 99;
 }
 
-.mobile-navbar-item a:hover {
-  color: #D02126;
-  background-color: rgba(0, 0, 0, 0.3);
+.mobile-navbar-item input {
+  margin: 14px 20px;
+  z-index: 100;
+}
+
+.mobile-navbar-spacer {
+  top: 1vh;
+  left: 47.5vw;
+  position: absolute;
+  background-color: gray;
+  border: red;
+  color: blue;
+  z-index: 100;
 }
 
 .mobile-navbar-icon {
@@ -257,6 +315,10 @@ ul {
   color: gray;
 }
 
+.info-box-info-sub {
+  color: gray;
+}
+
 .shiatsu-info-box {
   margin: 5vh 10vw 0vh 10vw;
   max-width: 100%;
@@ -280,8 +342,57 @@ ul {
   }
 }
 
+.prologue-box {
+  position: relative;
+  margin: 3vh 10vw 60vh 10vw;
+  max-width: 100%;
+  vertical-align: middle;
+  color: red;
+  z-index: 5;
+}
+
+@media (min-width: 768px) { /* Tablet View*/
+  .prologue-box {
+    margin: 3vh 15vw 28vh 15vw;
+  }
+}
+
+@media (min-width: 1200px) { /* Desktop View*/
+  .prologue-box {
+    margin: 3vh 25vw 28vh 25vw;
+  }
+}
+
+.prologue-box-front {
+  position: absolute;
+  border-top-left-radius: 250px 15px;
+  border-bottom-left-radius: 20px 115px;
+  border-bottom-right-radius: 105px 15px;
+  padding: 3vh 5vw 3vh 5vw;
+  min-width: 100%;
+  vertical-align: middle;
+  background-color: cornsilk;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 6;
+}
+
+.prologue-box-back {
+  position: absolute;
+  border-top-right-radius: 250px 15px;
+  border-top-left-radius: 20px 115px;
+  border-bottom-right-radius: 105px 15px;
+  padding: 3vh 5vw 3vh 5vw;
+  min-width: 100%;
+  vertical-align: middle;
+  background-color: lightpink;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 5;
+  transform: rotate(5deg);
+  transform-origin: center center;
+}
+
 .benefits-box {
-  margin: 0vh 20vw 10vh 20vw;
+  margin: 50vh 20vw 10vh 20vw;
 }
 
 .benefits-box-img {
@@ -355,7 +466,7 @@ p.location-text {
 }
 
 p.prices-header {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', 'Noto Serif JP', cursive;
   font-size: 80px;
   display: inline;
   text-shadow:  5px 4px 25px rgba(236, 222, 236, 1), 
@@ -424,7 +535,7 @@ p.prices-header {
 }
 
 p.price-title {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue', 'Noto Sans JP', cursive;
   font-size: 30px;
   color: black;
 }
@@ -434,7 +545,7 @@ p.price-box-price {
 }
 
 p.hprice {
-  font-family: 'Amiko', sans-serif; 
+  font-family: 'Amiko', 'Noto Sans JP', sans-serif; 
   font-size: 80px;
   color: #D7777A;
 }
@@ -449,7 +560,7 @@ p.hprice {
 }
 
 p.qna-logo-1 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', 'Noto Sans JP', cursive;
   font-size: 120px;
   display: inline;
   text-shadow:  5px 4px 25px rgba(236, 222, 236, 1), 
@@ -458,7 +569,7 @@ p.qna-logo-1 {
 }
 
 p.qna-logo-2 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', 'Noto Sans JP', cursive;
   font-size: 60px;
   display: inline;
   text-shadow:  5px 4px 25px rgba(236, 222, 236, 1), 
@@ -499,7 +610,8 @@ p.qna-logo-2 {
 }
 
 p.about-header {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', 'Noto Serif JP', 
+  cursive;
   font-size: 110px;
   display: inline;
   text-shadow:  5px 4px 25px rgba(236, 222, 236, 1), 
@@ -525,6 +637,10 @@ p.about-header {
 
 .about-info {
   background-color: rgba(255,255,255,0.8);
+}
+
+.inline-p {
+  display: inline;
 }
 
 @media (min-width: 768px) { /* Tablet View*/
@@ -561,7 +677,7 @@ body {
 }
 
 h1 {
-  font-family: 'Amiko', sans-serif;
+  font-family: 'Amiko', 'Noto Sans JP', sans-serif;
   font-size: 30px;
   font-weight: 700;
   color: #D7777A;
@@ -577,7 +693,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'Amiko', sans-serif; 
+  font-family: 'Amiko', 'Noto Sans JP', sans-serif; 
   color: white;
   font-size: 16px;
 }
@@ -592,4 +708,8 @@ p {
 
 p.indent {
   text-indent: 30px;
+}
+
+span.indent {
+  margin-left: 30px;
 }

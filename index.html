@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Rei Shiatsu - Home</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amiko:wght@700&display=swap" rel="stylesheet">
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <title class="l10n">Rei Shiatsu - Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@700&family=Bebas+Neue:wght@400&family=Dancing+Script:wght@700&family=Noto+Sans+JP:wght@500&family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
+</head>
 
 <nav class="d-none d-lg-block">
   <ul class="desktop-navbar">
-    <li class="desktop-navbar-item"><a href="index.html">HOME</a></li>
-    <li class="desktop-navbar-item"><a href="qna.html">Q&A</a></li>
-    <li class="desktop-navbar-item"><a href="prices.html">PRICES</a></li>
-    <li class="desktop-navbar-item"><a href="about.html">ABOUT ME</a></li>
+    <li class="desktop-navbar-item"><a class="l10n" href="index.html">HOME</a></li>
+    <li class="desktop-navbar-item"><a class="l10n" href="qna.html">QUESTIONS</a></li>
+    <li class="desktop-navbar-item"><a class="l10n" href="prices.html">PRICES</a></li>
+    <li class="desktop-navbar-item"><a class="l10n" href="about.html">ABOUT ME</a></li>
+    <li class="desktop-navbar-item"><p> </p></a></li>
+    <li class="desktop-navbar-item"><input class="english-button l10n" type="button" id="swap-lang-en"></li>
+    <li class="desktop-navbar-item"><p>|</p></a></li>
+    <li class="desktop-navbar-item"><input class="japanese-button l10n" type="button" id="swap-lang-jp"></li>
   </ul>
 </nav>
 
@@ -28,10 +28,14 @@
   <input type="image" src="assets\list.svg" alt="menu-icon" class="mobile-navbar-icon" data-toggle="collapse" data-target="#mobile-navbar" aria-expanded="false" aria-controls="mobile-navbar" value="1" id="icon-change" onclick="changeIcon()">
   <div class="collapse mobile-navbar" id="mobile-navbar">
     <ul class="mobile-navbar-nav">
-      <li class="mobile-navbar-item"><a href="index.html">HOME</a></li>
-      <li class="mobile-navbar-item"><a href="qna.html">Q&A</a></li>
-      <li class="mobile-navbar-item"><a href="prices.html">PRICES</a></li>
-      <li class="mobile-navbar-item"><a href="about.html">ABOUT ME</a></li>
+      <li class="mobile-navbar-item"><a class="l10n" href="index.html">HOME</a></li>
+      <li class="mobile-navbar-item"><a class="l10n" href="qna.html">QUESTIONS</a></li>
+      <li class="mobile-navbar-item"><a class="l10n" href="prices.html">PRICES</a></li>
+      <li class="mobile-navbar-item"><a class="l10n" href="about.html">ABOUT ME</a></li>
+      <li class="mobile-navbar-item">
+        <input class="english-button l10n" type="button" id="swap-lang-en-mobile">
+        <input class="japanese-button l10n" type="button" id="swap-lang-jp-mobile">
+      </li>
     </ul>
   </div>
 </nav>
@@ -48,8 +52,6 @@ function changeIcon() {
 }
 </script>
 
-<body>
-
 <div class="home-main">
   <img class="d-none d-md-block d-lg-block home-left-leaves" src="images\leaves-back-left.png" alt="left-leaves">
   <img class=home-left-floral src="images\floral-back-left.png" alt="left-floral-leaves">
@@ -64,9 +66,9 @@ function changeIcon() {
       <div class="d-flex flex-row align-items-start">
         <img class="info-box-icon mr-4" src="assets\house-door-fill.svg" alt="home-icon">
         <div class="info-box-info">
-          <h6>Visit Our Location</h6>
+          <h6 class="l10n">Visit Our Location</h6>
           Address Line 1
-          <br> Address Line 2
+          Address Line 2
         </div>
       </div>
     </div>
@@ -74,7 +76,7 @@ function changeIcon() {
       <div class="d-flex flex-row align-items-start">
         <img class="info-box-icon mr-4" src="assets\telephone-fill.svg" alt="phone-icon">
         <div class="info-box-info">
-          <h6>Text Us Today</h6>
+          <h6 class="l10n">Text Us Today</h6>
           (510) 684-0386
         </div>
       </div>
@@ -83,8 +85,8 @@ function changeIcon() {
       <div class="d-flex flex-row align-items-start">
         <img class="info-box-icon mr-4" src="assets\calendar-check-fill.svg" alt="calendar-icon">
         <div class="info-box-info">
-          <h6>Book an Appointment</h6>
-          Work in Progress...
+          <h6 class="l10n">Book an Appointment</h6>
+          <p class="info-box-info-sub l10n">Work in Progress...</p>
         </div>
       </div>
     </div>
@@ -92,7 +94,7 @@ function changeIcon() {
       <div class="d-flex flex-row align-items-start">
         <img class="info-box-icon mr-4" src="assets\clock-fill.svg" alt="clock-icon">
         <div class="info-box-info">
-          <h6>Opening Hours</h6>
+          <h6 class="l10n">Opening Hours</h6>
           Hours TBD
           <!--Tue-Fri: 1PM - 7PM
           <br>Sat: 10AM - 4PM
@@ -103,11 +105,24 @@ function changeIcon() {
   </div>
 </div>
 
-<div class="benefits-box mt-5 mb-5">
+<div class="prologue-box">
+  <div class="prologue-box-front">
+    <h1 class="l10n">Prologue</h1>
+    <p class="indent l10n">Hello. I’m Rei Tan, a Massage therapist in the Bay Area in San Francisco.</p>
+    <p class="indent l10n">And I plan on helping those who have stressed out with work, the daily hustle and bustle of life, or even kids. Speaking of, if you aren't able to find a babysitter they are free to stay in the same room when you get the massage. Right now all I offer are in-home massages with a portable massage table, so please make sure there is a parking spot near your home. And if I don’t answer the phone please leave a message and I will get back to you as soon as possible. Thank you.</p>
+  </div>
+  <div class="prologue-box-back">
+    <h1 class="l10n">Prologue</h1>
+    <p class="indent l10n">Hello. I’m Rei Tan, a Massage therapist in the Bay Area in San Francisco.</p>
+    <p class="indent l10n">And I plan on helping those who have stressed out with work, the daily hustle and bustle of life, or even kids. Speaking of, if you aren't able to find a babysitter they are free to stay in the same room when you get the massage. Right now all I offer are in-home massages with a portable massage table, so please make sure there is a parking spot near your home. And if I don’t answer the phone please leave a message and I will get back to you as soon as possible. Thank you.</p>
+  </div>
+</div>
+
+<div class="benefits-box mb-5">
   <div class="row">
     <div class="benefits-box-col col-md-6 col-lg-3 m-0">
-      <h1>Shiatsu Benefits</h1>
-      <p class="indent">Shiatsu is a Japanese form of therapeutic bodywork, that combines Chinese concepts of medicine, traditional Japanese therapies, as well as more modern western knowledge in order to harmonize the body. While its modern research has been limited, multitudes of benefits have been found. Listed here are some of the documented benefits, feel free to click on the images to view the studies from trusted scientific societies and foundations that support each benefit.</p>
+      <h1 class="l10n">Shiatsu Benefits</h1>
+      <p class="indent l10n">Shiatsu is a Japanese form of therapeutic bodywork, that combines Chinese concepts of medicine, traditional Japanese therapies, as well as more modern western knowledge in order to harmonize the body. While its modern research has been limited, multitudes of benefits have been found. Listed here are some of the documented benefits, feel free to click on the images to view the studies from trusted scientific societies and foundations that support each benefit.</p>
     </div>
     <div class="benefits-box-col col-md-6 col-lg-3 m-0">
       <div class="benefits-box-img">
@@ -115,8 +130,8 @@ function changeIcon() {
           <img class="benefits-box-img hover-overlay zoom" src="images\shiatsu-benefits-1.jpg" alt="shiatsu-benefits-1">
         </a>
       </div>
-      <h3>Reduces Stress</h3>
-      <p>A Japanese cancer study showed that with just a simple passive shiatsu treatment there was both a reduction in anxiety and an increase in patient's relaxation and overall comfort. </p>
+      <h3 class="l10n">Reduces Stress</h3>
+      <p class="l10n">A Japanese cancer study showed that with just a simple passive shiatsu treatment there was both a reduction in anxiety and an increase in patient's relaxation and overall comfort.</p>
     </div>
     <div class="benefits-box-col col-md-6 col-lg-3 m-0">
       <div class="benefits-box-img"> 
@@ -124,9 +139,8 @@ function changeIcon() {
           <img src="images\shiatsu-benefits-2.jpg" alt="shiatsu-benefits-2">
         </a>
       </div>
-      <h3>Increases Sleep Quality</h3>
-      <p>Studies with cancer patients have shown an increase in well-being and quality of life 
-      with a 35% decrease in fatigue and a general increase in quality of sleep and overall energy.</p>
+      <h3 class="l10n">Increases Sleep Quality</h3>
+      <p class="l10n">Studies with cancer patients have shown an increase in well-being and quality of life with a 35% decrease in fatigue and a general increase in quality of sleep and overall energy.</p>
     </div>
     <div class="benefits-box-col col-md-6 col-lg-3 m-0">
       <div class="benefits-box-img">
@@ -134,8 +148,8 @@ function changeIcon() {
           <img class="benefits-box-img" src="images\shiatsu-benefits-3.jpg" alt="shiatsu-benefits-3">
         </a>
       </div>
-      <h3>Helps with Joint Pain</h3>
-      <p>The Arthritis Foundation, the largest nonprofit organization for America's leading cause of disability, recommends shiatsu as a complementary natural therapy to help with joint pain.</p>
+      <h3 class="l10n">Helps with Joint Pain</h3>
+      <p class="l10n">The Arthritis Foundation, the largest nonprofit organization for America's leading cause of disability, recommends shiatsu as a complementary natural therapy to help with joint pain.</p>
     </div>
   </div>
 </div>
@@ -150,22 +164,22 @@ function changeIcon() {
     <div class="location-box-spacer col-md-12 col-lg-1">
     </div>
     <div class="location-box-info col-md-12 col-lg-6 p-5">
-      <h2>Rei Shiatsu</h2>
-      <h3>Location TBD</h3>
+      <h2 class="l10n">Rei Shiatsu</h2>
+      <h3 class="l10n">Location TBD</h3>
       <div class="row m-0">
         <div class="col-6 m-0">
           <p class="location-text"><br>Address Line 1
-          <br> Address Line 2
-          <br>Text: (510) 684-0386</p>
+          <br> Address Line 2</p>
+          <p class="l10n">Text: (510) 684-0386</p>
         </div>
         <div class="col-6 m-0">
-          <p class="location-text"><br><b>Opening Hours</b>
+          <p class="location-text"><br><b class="l10n">Opening Hours</b>
           <br>Hours TBD
           <!--<br>Tue-Fri: 1PM - 7PM
           <br>Sat: 10AM - 4PM</p>-->
         </div>
       </div>
-      <p class="indent"><br><br>Location Information (Will be filled once secured.)</p> 
+      <br><br><p class="indent l10n">Location Information</p> 
     </div>
   </div>
 </div>
@@ -173,15 +187,15 @@ function changeIcon() {
 <div class="shiatsu-info-box">
   <div class="row">
     <div class="shiatsu-info-col col-sm-12 col-md-5 order-md-1">
-      <h1>What to Expect</h1>
-      <p class="indent">Massage sessions combine elements of acupuncture and stretching into a full body massage. We recommend loose-fitting clothing such as pajamas, we have a room that you can change in, in order to get the best experience. The first half of the session you will be lying on your stomach and then on your back during the later half. If you can't lie on your stomach or have any difficulties you may like on your side or back. In the beginning of the massage the pressure will be light before gradually transitioning stronger. Please let us know at any time if you experience any pain or discomfort.</p>
+      <h1 class="l10n">What to Expect</h1>
+      <p class="indent l10n">Massage sessions combine elements of acupuncture and stretching into a full body massage. We recommend loose-fitting clothing such as pajamas, we have a room that you can change in, in order to get the best experience. The first half of the session you will be lying on your stomach and then on your back during the later half. If you can't lie on your stomach or have any difficulties you may like on your side or back. In the beginning of the massage the pressure will be light before gradually transitioning stronger. Please let us know at any time if you experience any pain or discomfort.</p>
     </div>
     <div class="shiatsu-info-col col-sm-12 col-md-7 order-md-2">
       <img class="shiatsu-info-img" src="images/shiatsu-massage.jpg" alt="shiatsu-image">
     </div>
     <div class="shiatsu-info-col col-sm-12 col-md-5 order-md-4">
-      <h1>After the Session</h1>
-      <p class="indent">You should drink lots of water and continue to stretch your entire body. Because we will be working muscles that you may not usually work with regularly, your blood flow may improve causing dizziness, so please move with care. Also be aware that drinking alcohol on the day of the session may cause you to get drunk faster than normal. </p>
+      <h1 class="l10n">After the Session</h1>
+      <p class="indent l10n">You should drink lots of water and continue to stretch your entire body. Because we will be working muscles that you may not usually work with regularly, your blood flow may improve causing dizziness, so please move with care. Also be aware that drinking alcohol on the day of the session may cause you to get drunk faster than normal.</p>
     </div>
 
     <div class="shiatsu-info-col col-sm-12 col-md-7 order-md-3">
@@ -195,17 +209,17 @@ function changeIcon() {
   <div class="row mt-5 ml-5 mr-5">
     <div class="col-xs-12 col-md-6">
       <div class="footer-info-1">
-        <h5>Rei Shiatsu</h5>
+        <h5 class="l10n">Rei Shiatsu</h5>
         <a href="">
           Address Line 1
-          <br> Address Line 2
+          <br> Address Line 2 <br>
         </a>
-        <br>Text: (510) 684-0386
+        <footer-info-1 class="l10n">Text: (510) 684-0386</footer-info-1> 
       </div>
     </div>
     <div class="col-xs-12 col-md-6 pr-3">
       <div class="footer-info-2">
-        <h5>Check Us Out</h5>
+        <h5 class="l10n">Check Us Out</h5>
         <!--
           <a href="https://www.facebook.com/"><img class="footer-icon" src="assets\facebook.svg" alt="facebook-icon"></a>
           <a href="https://www.instagram.com/"><img class="footer-icon" src="assets\instagram.svg" alt="instagram-icon"></a>
@@ -216,6 +230,12 @@ function changeIcon() {
   </div>
 </div>
 
-</div>
-</body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/dictionary.js"></script>
+<script src="js/jquery.l10n.js"></script>
+<script src="js/translator.js"></script>
+
 </html>
