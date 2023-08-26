@@ -161,13 +161,25 @@ ul {
 
 .qna-main {
   width: 100vw;
-  height: 140vh;
+  height: 180vh;
   max-width: 100%;
   position: relative;
   background-color: #ECE9EC;
   background-image: url('images/paper-background.png');
   overflow: hidden;
   z-index: 1;
+}
+
+@media (min-width: 768px) { /* Tablet View*/
+  .qna-main {
+    height: 160vh;
+  }
+}
+
+@media (min-width: 1200px) { /* Desktop View*/
+  .qna-main {
+    height: 140vh;
+  }
 }
 
 .price-main {
@@ -183,7 +195,7 @@ ul {
 
 .about-main {
   width: 100vw;
-  height: 140vh;
+  height: 170vh;
   max-width: 100%;
   position: relative;
   background-color: #ECE9EC;
@@ -224,9 +236,9 @@ ul {
 
 .qna-left-floral {
   position: absolute;
-  height: 140vh;
+  height: 180vh;
   left: 0%;
-  bottom: 0%;
+  top: 0%;
   z-index: 3;
 }
 
@@ -248,10 +260,28 @@ ul {
 
 .qna-right-floral {
   position: absolute;
-  height: 140vh;
+  height: 180vh;
   right: 0%;
-  bottom: 0%;
+  top: 0%;
   z-index: 3;
+}
+
+@media (min-width: 768px) { /* Tablet View*/
+  .qna-left-floral {
+    height: 160vh;
+  }
+  .qna-right-floral {
+    height: 160vh;
+  }
+}
+
+@media (min-width: 1200px) { /* Desktop View*/
+  .qna-left-floral {
+    height: 140vh;
+  }
+  .qna-right-floral {
+    height: 140vh;
+  }
 }
 
 .price-right-floral {
@@ -417,7 +447,7 @@ ul {
   margin: 0;
   padding: 7vh 8vw;
   max-width: 100vw;
-  background-image: url(images/grey-background.jpg);
+  background-image: url(images/location-outside-view.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   backdrop-filter: blur(5px);
@@ -466,12 +496,26 @@ p.location-text {
 }
 
 p.prices-header {
-  font-family: 'Dancing Script', 'Noto Serif JP', cursive;
-  font-size: 80px;
   display: inline;
   text-shadow:  5px 4px 25px rgba(236, 222, 236, 1), 
                 5px 4px 25px rgba(236, 222, 236, 1), 
                 5px 4px 25px rgba(236, 222, 236, 1);
+}
+
+p.hprice {
+  font-family: 'Amiko', 'Noto Sans JP', sans-serif; 
+  font-size: 80px;
+  color: #D7777A;
+}
+
+html:lang(en) p.prices-header {
+  font-family: 'Dancing Script', 'Noto Serif JP', cursive;
+  font-size: 80px;
+}
+
+html:lang(jp) p.prices-header {
+  font-family: 'Dancing Script', 'Noto Serif JP', cursive;
+  font-size: 60px;
 }
 
 .price-box {
@@ -498,8 +542,12 @@ p.prices-header {
     left: 10vw;
   }
 
-  p.prices-header {
+  html:lang(en) p.prices-header {
     font-size: 100px;
+  }
+
+  html:lang(jp) p.prices-header {
+    font-size: 80px;
   }
 }
 
@@ -521,8 +569,12 @@ p.prices-header {
     left: 15vw;
   }
 
-  p.prices-header {
+  html:lang(en) p.prices-header {
     font-size: 120px;
+  }
+
+  html:lang(jp) p.prices-header {
+    font-size: 100px;
   }
 }
 
@@ -544,12 +596,6 @@ p.price-box-price {
   text-align: center;
 }
 
-p.hprice {
-  font-family: 'Amiko', 'Noto Sans JP', sans-serif; 
-  font-size: 80px;
-  color: #D7777A;
-}
-
 .qna-logo-box {
   position: absolute;
   width: 100vw;
@@ -560,7 +606,7 @@ p.hprice {
 }
 
 p.qna-logo-1 {
-  font-family: 'Dancing Script', 'Noto Sans JP', cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 120px;
   display: inline;
   text-shadow:  5px 4px 25px rgba(236, 222, 236, 1), 
@@ -569,7 +615,7 @@ p.qna-logo-1 {
 }
 
 p.qna-logo-2 {
-  font-family: 'Dancing Script', 'Noto Sans JP', cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 60px;
   display: inline;
   text-shadow:  5px 4px 25px rgba(236, 222, 236, 1), 
@@ -612,11 +658,17 @@ p.qna-logo-2 {
 p.about-header {
   font-family: 'Dancing Script', 'Noto Serif JP', 
   cursive;
-  font-size: 110px;
+  font-size: 90px;
   display: inline;
   text-shadow:  5px 4px 25px rgba(236, 222, 236, 1), 
                 5px 4px 25px rgba(236, 222, 236, 1), 
                 5px 4px 25px rgba(236, 222, 236, 1);
+}
+
+@media (min-width: 768px) { /* Tablet View*/
+  p.about-header {
+    font-size: 110px;
+  }
 }
 
 .about-info-box {
