@@ -333,6 +333,13 @@ ul {
   z-index: 5;
 }
 
+p.info-box-info {
+  color: gray;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
 .info-box-icon {
   position: relative;
   width: 50px;
@@ -479,10 +486,6 @@ ul {
   padding: 5vh;
   background-color: rgba(255,255,255,0.9);
   display: block;
-}
-
-p.location-text {
-  padding: ;
 }
 
 .prices-header-box {
