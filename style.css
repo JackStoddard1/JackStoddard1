@@ -485,7 +485,7 @@ html:lang(jp) .prologue-box {
   padding: 3vh 5vw 3vh 5vw;
   min-width: 100%;
   vertical-align: middle;
-  background-color: cornsilk;
+  background-color: #ECE9EC;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   z-index: 6;
 }
