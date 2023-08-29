@@ -106,7 +106,7 @@ const words = {
         "Rei Shiatsu": "Rei Shiatsu",
         "Newbury Park": "Newbury Park",
         "Text: (510) 684-0386": "Text: (510) 684-0386",
-        "Berryessa/North San José Bart station is nearby. The salon is a 15-minute walk from the station.": "最寄りにバート駅(Berryessa/North San José Station)があります。駅からサロンまでは徒歩15分の距離です",
+        "Berryessa/North San José Bart station is nearby. The salon is a 15-minute walk from the station.": "最寄りにバート駅 (Berryessa/North San José Station) があります。駅からサロンまでは徒歩15分の距離です",
         "What to Expect": "施術を受けるにあたって",
         "Massage sessions combine elements of acupuncture and stretching into a full body massage. We recommend loose-fitting clothing such as pajamas, we have a room that you can change in, in order to get the best experience. The first half of the session you will be lying on your stomach and then on your back during the later half. If you can't lie on your stomach or have any difficulties you may like on your side or back. In the beginning of the massage the pressure will be light before gradually transitioning stronger. Please let us know at any time if you experience any pain or discomfort.": "服装はリラックスして受けていただけるように、ゆったりとしていて施術を受ける人がストレスなく動ける服装でお願いしています。指圧は圧加減の強弱調節が非常に大切です。そのためには患者様とのコミュニケーションが重要になります例えば、私達が一方的に強さを決めたり施術箇所を決めたりはいたしません。しっかりと希望を聞き、筋やお体の状態に応じて調整していきます。ただしご要望であっても必要以上に強く圧を加えることも致しません。例えば、強ければ効くというものではありませんし筋緊張を誘発してもみ起こしの原因にもなります。",
         "After the Session": "術後について",
