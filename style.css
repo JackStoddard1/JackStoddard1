@@ -379,13 +379,90 @@ p.info-box-info {
   }
 }
 
+.testimonials-box {
+  margin: 5vh 0vw 0vh 0vw;
+  padding: 5vh 5vw 0vh 5vw;
+  background-color: #ECE9EC;
+}
+
+.testimonials-box h1 {
+  font-size: 60px;
+  color: #B20219;
+}
+
+.quote-icon {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color: pink;
+  border-radius: 50%;
+  border-width: 1.5vh;
+  border-style: solid;
+  border-color: #ECE9EC;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 5vh;
+}
+
+.quote-icon {
+  padding-bottom: 20px;
+}
+
+.quote-icon p {
+  position: absolute;
+  left: 35px;
+  bottom: 0px;
+  text-align: center;
+  font-family: 'Oleo Script', sans-serif;
+  font-size: 120px;
+  color: black;
+}
+
+.testimonial-quote-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-text {
+  margin-top: -3vh;
+  padding: 11vh 3vw 4vh 3vw;
+  background-color: white;
+  border-bottom: solid #B20219;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+p.testimonials-person {
+  color: grey;
+  text-align: center;
+}
+
+html:lang(en) .testimonials-box {
+  position: absolute;
+  top: -1000vh;
+  z-index: 0;
+}
+
+html:lang(jp) .testimonials-box {
+  position: relative;
+  top: -8vh;
+}
+
 .prologue-box {
   position: relative;
-  margin: 3vh 10vw 60vh 10vw;
   max-width: 100%;
   vertical-align: middle;
   color: red;
   z-index: 5;
+}
+
+html:lang(en) .prologue-box {
+  margin: 3vh 10vw -15vh 10vw;
+}
+
+html:lang(jp) .prologue-box {
+  margin: 3vh 10vw 20vh 10vw;
 }
 
 @media (min-width: 768px) { /* Tablet View*/
