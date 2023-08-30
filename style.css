@@ -681,15 +681,15 @@ html:lang(jp) p.prices-header {
 
 @media (max-width: 992px) { /*Mobile View*/
   html:lang(jp) .price-main {
-    height: 185vh;
+    height: 195vh;
   }
 
   html:lang(jp) .price-left-floral {
-    height: 185vh;
+    height: 195vh;
   }
 
   html:lang(jp) .price-right-floral {
-    height: 185vh;
+    height: 195vh;
   }
 
   html:lang(jp) .price-box-info {
