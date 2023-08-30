@@ -681,7 +681,7 @@ html:lang(jp) p.prices-header {
 
 @media (max-width: 992px) { /*Mobile View*/
   html:lang(jp) .price-box-info {
-    min-width: 50vw;
+    min-width: 10vw;
   }
 }
 
