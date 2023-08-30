@@ -693,7 +693,7 @@ html:lang(jp) p.prices-header {
   }
 
   html:lang(jp) .price-box-info {
-    min-width: 10vw;
+    min-width: 40vw;
   }
 }
 
