@@ -506,7 +506,7 @@ html:lang(jp) .prologue-box {
 }
 
 .benefits-box {
-  margin: 50vh 20vw 10vh 20vw;
+  margin: 60vh 20vw 10vh 20vw;
 }
 
 .benefits-box-img {
@@ -647,6 +647,10 @@ html:lang(jp) p.prices-header {
     top: 300px;
     width: 70vw;
     left: 15vw;
+  }
+
+  html:lang(en) p.hprice {
+    font-size: px;
   }
 
   html:lang(en) p.prices-header {
