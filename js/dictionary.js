@@ -130,7 +130,7 @@ const words = {
         "Does Shiatsu hurt?": "指圧は痛いですか？",
         "For more sensitive individuals it can hurt, however it is more of a relieving sensation. And per the customer's request we can gradually work from a lighter to deeper massage to ensure a more comfortable experience. Please don't hesitate to let me know if anything is too uncomfortable.": "指圧というと痛いというイメージを持つ人も多いと思いますが、実際は痛い指圧のほうが効いているということはありません。やみくもに痛い施術は皮膚の炎症を引き起こしてしまう場合があります。指圧は心地よい圧を身体の奥まで浸透させるので痛いと思うことがあれば遠慮なく申し出ください。",
         "How can I book an appointment?": "予約はどうしたらいいですか？",
-        "We are currently only booking via phone, please text (510) 684-0386. We will reply as soon as possible, between the hours of 9AM to 7PM.": "現在、お電話でのご予約のみとなっておりますので、(510) 684-0386 までテキストメッセージをお送りください。 午前9時から午後7時までの間で、できるだけ早く返信させていただきます。",
+        "We are currently only booking via phone, please text (510) 684-0386. We will reply as soon as possible, between the hours of 9AM to 7PM.": "現在テキストでのご予約のみとなっておりますので、(510) 684-0386 までメッセージをお送りください(日本語可能)午前9時から午後7時の間にできるだけ早く、返信させていただきます。",
         "What should I wear?": "何を着ていけばいいですか？",
         "We recommend wearing loose fit clothing such as pajamas or sweatpants, there will be a private area where you can change. We also recommend removing accessories and bras.": "服装はリラックスして受けていただけるように、ゆったりとしていて施術を受ける人がストレスなく動ける服装でお願いしています。",
         "Can I use my card to pay?":　 "カード払いはできますか？"　,
