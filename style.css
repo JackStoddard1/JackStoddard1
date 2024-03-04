@@ -170,6 +170,33 @@ ul {
   z-index: 1;
 }
 
+.about-main {
+  width: 100vw;
+  height: 185vh;
+  max-width: 100%;
+  position: relative;
+  background-color: #ECE9EC;
+  background-image: url('images/paper-background.png');
+  overflow: hidden;
+  z-index: 1;
+}
+
+.about-left-floral {
+  position: absolute;
+  height: 185vh;
+  left: 0%;
+  bottom: 0%;
+  z-index: 3;
+}
+
+.about-right-floral {
+  position: absolute;
+  height: 185vh;
+  right: 0%;
+  bottom: 0%;
+  z-index: 3;
+}
+
 @media (min-width: 768px) { /* Tablet View*/
   .qna-main {
     height: 160vh;
@@ -179,6 +206,18 @@ ul {
 @media (min-width: 1200px) { /* Desktop View*/
   .qna-main {
     height: 140vh;
+  }
+
+  .about-main {
+    height: 120vh;
+  }
+
+  .about-left-floral {
+    height: 120vh;
+  }
+
+  .about-right-floral {
+    height: 120vh;
   }
 }
 
@@ -191,23 +230,6 @@ ul {
   background-image: url('images/paper-background.png');
   overflow: hidden;
   z-index: 1;
-}
-
-.about-main {
-  width: 100vw;
-  height: 170vh;
-  max-width: 100%;
-  position: relative;
-  background-color: #ECE9EC;
-  background-image: url('images/paper-background.png');
-  overflow: hidden;
-  z-index: 1;
-}
-
-@media (min-width: 1200px) { /* Tablet View*/
-  .about-main {
-    height: 100vh;
-  }
 }
 
 .home-left-leaves {
@@ -340,6 +362,12 @@ p.info-box-info {
   display: inline;
 }
 
+.info-box-p {
+  color: gray;
+  padding: 0;
+  margin: 0;
+}
+
 .info-box-icon {
   position: relative;
   width: 50px;
@@ -386,7 +414,7 @@ p.info-box-info {
 }
 
 .testimonials-box h1 {
-  font-size: 60px;
+  font-size: 50px;
   color: #B20219;
 }
 
@@ -438,75 +466,42 @@ p.testimonials-person {
   text-align: center;
 }
 
-html:lang(en) .testimonials-box {
-  position: absolute;
-  top: -1000vh;
-  z-index: 0;
-}
-
-html:lang(jp) .testimonials-box {
+.testimonials-box {
   position: relative;
   top: -8vh;
 }
 
 .prologue-box {
+  margin: 0vh 10vw 0vh 10vw;
+  padding: 5vh 1vw 1vh 1vw;
   position: relative;
   max-width: 100%;
   vertical-align: middle;
-  color: red;
-  z-index: 5;
-}
-
-html:lang(en) .prologue-box {
-  margin: 3vh 10vw -15vh 10vw;
-}
-
-html:lang(jp) .prologue-box {
-  margin: 3vh 10vw 20vh 10vw;
-}
-
-@media (min-width: 768px) { /* Tablet View*/
-  .prologue-box {
-    margin: 3vh 15vw 28vh 15vw;
-  }
-}
-
-@media (min-width: 1200px) { /* Desktop View*/
-  .prologue-box {
-    margin: 3vh 25vw 28vh 25vw;
-  }
-}
-
-.prologue-box-front {
-  position: absolute;
-  border-top-left-radius: 250px 15px;
-  border-bottom-left-radius: 20px 115px;
-  border-bottom-right-radius: 105px 15px;
-  padding: 3vh 5vw 3vh 5vw;
-  min-width: 100%;
-  vertical-align: middle;
   background-color: #ECE9EC;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  z-index: 6;
+  z-index: 5;
 }
 
-.prologue-box-back {
-  position: absolute;
-  border-top-right-radius: 250px 15px;
-  border-top-left-radius: 20px 115px;
-  border-bottom-right-radius: 105px 15px;
-  padding: 3vh 5vw 3vh 5vw;
-  min-width: 100%;
-  vertical-align: middle;
-  background-color: lightpink;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  z-index: 5;
-  transform: rotate(5deg);
-  transform-origin: center center;
+.prologue-box h1 {
+  font-size: 50px;
+  color: #B20219;
+}
+
+.prologue-box p {
+  margin: 0vh 8vw 2vh 8vw;
+}
+
+.prologue-box-img {
+  max-width: 60vw;
+  height: auto;
+  width: auto;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .benefits-box {
-  margin: 65vh 20vw 10vh 20vw;
+  margin: 10vh 20vw 10vh 20vw;
 }
 
 .benefits-box-img {
@@ -531,7 +526,8 @@ html:lang(jp) .prologue-box {
   margin: 0;
   padding: 7vh 8vw;
   max-width: 100vw;
-  background-image: url(images/location-outside-view.jpg);
+  background-image: url(images/location-outside-1.jpeg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   backdrop-filter: blur(5px);
@@ -776,22 +772,11 @@ p.about-header {
   z-index: 5;
   width: 80vw;
   left: 10vw;
-  max-width: 100%;}
-
-.about-info-box img {
-  width: 450px;
-  display: block;
-  margin: auto;
   max-width: 100%;
-  object-fit: scale-down;
 }
 
 .about-info {
   background-color: rgba(255,255,255,0.8);
-}
-
-.inline-p {
-  display: inline;
 }
 
 @media (min-width: 768px) { /* Tablet View*/
@@ -800,6 +785,27 @@ p.about-header {
     left: 10vw;
     width: 80vw;
   }
+}
+
+@media (min-width: 1200px) { /* Desktop View*/
+  .about-info-box {
+    top: 300px;
+    left: 10vw;
+    width: 80vw;
+  }
+}
+
+.about-info-box img {
+  width: 450px;
+  display: block;
+  margin: auto;
+  margin-bottom: 5vh;
+  max-width: 100%;
+  object-fit: scale-down;
+}
+
+.inline-p {
+  display: inline;
 }
 
 .footer {
