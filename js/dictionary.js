@@ -11,6 +11,7 @@ const words = {
         "QUESTIONS": "Q&A",
         "PRICES": "PRICES",
         "ABOUT ME": "ABOUT ME",
+        "Our Location": "住所",
         "Appointment Only": "Appointment Only",
         "Please text me": "Please text me",
         "Opening Hours": "Opening Hours",
@@ -46,12 +47,14 @@ const words = {
         "Helps with Joint Pain": "Helps with Joint Pain",
         "The Arthritis Foundation, the largest nonprofit organization for America's leading cause of disability, recommends shiatsu as a complementary natural therapy to help with joint pain.": "The Arthritis Foundation, the largest nonprofit organization for America's leading cause of disability, recommends shiatsu as a complementary natural therapy to help with joint pain.",
         "Rei Shiatsu": "Rei Shiatsu",
-        "Newbury Park": "Newbury Park",
+        "Winchester Boulevard": "Winchester Boulevard",
+        "We are located in Function Better Holistic Center.": "We are located in Function Better Holistic Center.",
         "Text: (510) 684-0386": "Text: (510) 684-0386",
         "What to Expect": "What to Expect",
         "Massage sessions combine elements of acupuncture and stretching into a full body massage. We recommend loose-fitting clothing such as pajamas, we have a room that you can change in, in order to get the best experience. The first half of the session you will be lying on your stomach and then on your back during the later half. If you can't lie on your stomach or have any difficulties you may like on your side or back. In the beginning of the massage the pressure will be light before gradually transitioning stronger. Please let us know at any time if you experience any pain or discomfort.": "Massage sessions combine elements of acupuncture and stretching into a full body massage. We recommend loose-fitting clothing such as pajamas, we have a room that you can change in, in order to get the best experience. The first half of the session you will be lying on your stomach and then on your back during the later half. If you can't lie on your stomach or have any difficulties you may like on your side or back. In the beginning of the massage the pressure will be light before gradually transitioning stronger. Please let us know at any time if you experience any pain or discomfort.",
         "After the Session": "After the Session",
         "You should drink lots of water and continue to stretch your entire body. Because we will be working muscles that you may not usually work with regularly, your blood flow may improve causing dizziness, so please move with care. Also be aware that drinking alcohol on the day of the session may cause you to get drunk faster than normal.": "You should drink lots of water and continue to stretch your entire body. Because we will be working muscles that you may not usually work with regularly, your blood flow may improve causing dizziness, so please move with care. Also be aware that drinking alcohol on the day of the session may cause you to get drunk faster than normal.",
+        "We are located in Function Better Holistic Center.": "We are located in Function Better Holistic Center.",
         "Check Us Out": "Check Us Out",
 
         "About Me": "About Me",
@@ -94,7 +97,7 @@ const words = {
         "1 Hour Each": "1 Hour Each",
         "PREMIUM PACKAGE": "PREMIUM PACKAGE",
         "4 Personalized Sessions": "4 Personalized Sessions",
-        "* You need to pay the full amount of the package at once.": "* You need to pay the full amount of the package at once."
+        "* You need to pay for the full amount of the package at once.": "* You need to pay for the full amount of the package at once."
 
     }, 
     jp: {
@@ -141,16 +144,18 @@ const words = {
         "Helps with Joint Pain": "さまざまな痛み",
         "The Arthritis Foundation, the largest nonprofit organization for America's leading cause of disability, recommends shiatsu as a complementary natural therapy to help with joint pain.": "筋緊張や神経痛など興奮状態にある筋や神経に対して指圧を施すことで、この興奮を抑え・鎮める効果が期待できます。デスクワークなどで長時間同じ姿勢をとる方に多い慢性的な肩こりは、肩に関する筋肉が常にこの興奮状態にあることが原因です。内臓の不調・異常は自律神経を伝い、体表に”こり”や”痛み”となって現れます。指圧では、患部に刺激を与えることで、内臓の働きを整え、改善する効果が期待できます。",
         "Rei Shiatsu": "Rei Shiatsu",
-        "Newbury Park": "Newbury Park",
-        "Text: (510) 684-0386": "Text: (510) 684-0386",
+        "Winchester Boulevard": "Winchester Boulevard",
+        "We are located in Function Better Holistic Center.": "Function Better Holistic Center表示のあるサロン内になります。",
+        "Text: (510) 684-0386": "テキスト: (510) 684-0386",
         "What to Expect": "施術を受けるにあたって",
         "Massage sessions combine elements of acupuncture and stretching into a full body massage. We recommend loose-fitting clothing such as pajamas, we have a room that you can change in, in order to get the best experience. The first half of the session you will be lying on your stomach and then on your back during the later half. If you can't lie on your stomach or have any difficulties you may like on your side or back. In the beginning of the massage the pressure will be light before gradually transitioning stronger. Please let us know at any time if you experience any pain or discomfort.": "服装はリラックスして受けていただけるように、ゆったりとしていて施術を受ける人がストレスなく動ける服装でお願いしています。指圧は圧加減の強弱調節が非常に大切です。そのためには患者様とのコミュニケーションが重要になります例えば、私達が一方的に強さを決めたり施術箇所を決めたりはいたしません。しっかりと希望を聞き、筋やお体の状態に応じて調整していきます。ただしご要望であっても必要以上に強く圧を加えることも致しません。例えば、強ければ効くというものではありませんし筋緊張を誘発してもみ起こしの原因にもなります。",
         "After the Session": "術後について",
         "You should drink lots of water and continue to stretch your entire body. Because we will be working muscles that you may not usually work with regularly, your blood flow may improve causing dizziness, so please move with care. Also be aware that drinking alcohol on the day of the session may cause you to get drunk faster than normal.": "指圧後は水分補給を忘れないようにお願いします。そして飲酒はやめましょう。指圧を受けた後は血流が促進された状態だからです。「体内にアルコール分がめぐる状態」と「指圧で血行が良くなる状態」が合わさると、通常の飲酒時よりも酔いが早くまわり、悪酔いしやすい状態になり危険です。施術により筋肉を伸ばしても、筋膜が癒着していると十分な効果が得られないことがあります。その為ストレッチも取り入れながら指圧マッサージを行うことで、筋肉も効果的に解すようにしています。術後もお家で軽いストレッチをされることを推奨しています。",
+        "We are located in Function Better Holistic Center.": "Function Better Holistic Center表示のあるサロン内になります。",
         "Check Us Out": "こちらを",
 
         "About Me": "自己紹介",
-        "Why Shiatsu?": "指圧を始めたいと思ったきっかけ",
+        "Why Shiatsu?": "指圧を始めたいと思ったきっかけ？",
         "I moved to America in 2004 from Japan, and for the longest time suffered from painful stiff shoulders. But upon coming to America, I discovered relief through shiatsu, a Japanese massage therapy, which has helped me find the relief I needed. Ever since, I’ve wanted to share this revitalizing experience with others too.": "私は2004年に日本からアメリカに引っ越してきました。日本に在住時から長い間肩こりには苦しんでいました。アメリカに来たときに日本のマッサージ療法である指圧を試す機会があり、術後に私の肩が軽くなって動かしやすくなっていて日々の生活が楽になっていると感じました。最近は電子機器、スマホの普及やアメリカの強い冷房などで以前にも増して肩こりで悩まれている方々が増えているように思えます。そんな方々の助けにもなるのではないかと思いマッサージ師の資格を目指すことになりました。",
         "I studied at": "私は",
         "McKinnon Body Therapy Center": "マッキノンボディセラピーセンター",
@@ -159,9 +164,9 @@ const words = {
 
         "Do you have a parking lot?": "駐車場はありますか？",
         "We have a parking lot on the premises, however if there are no spaces please use the street. Please arrive early as parking tends to fill up quickly.": "敷地内にも駐車場はありますが、埋まっている場合路上駐車をお願いしてます。時間に余裕を持って来られる事をお勧めします。",
-        "What is Shiatsu?": "指圧とは?",
+        "What is Shiatsu?": "指圧とは？",
         "Shiatsu is a massage technique unique to Japan that originates from traditional asian medicine. It is based on bodywork techniques from Thailand and China that uses pressure points to relieve the body inside out. And in Japanese (指圧 or しあつ) it means \"finger pressure\" due to being a form of acupuncture that utilizes the fingers instead of needles. Where and how quickly the pressure is applied is changed slowly according to the body’s state, bringing it into balance and relieving it of fatigue.": "日本独特の技法であって手指や手のひらを使い体表に圧を加える技法です。筋肉の疲労物質を除去し筋肉を正常化させ体の均衡を保つことを目的としています。",
-        "When should I consider Shiatsu?": "指圧の利用タイミング",
+        "When should I consider Shiatsu?": "指圧の利用タイミング？",
         "Shiatsu addresses various concerns and needs in modern society, such as improving chronic conditions, maintaining daily health, and preventing illness. Specifically, it is effective for back pain, stiff shoulders, sensitivity to cold, headache, indigestion, loss of appetite, constipation, menstrual pain, sciatica, etc.": "指圧を利用される方々は、疲れたからリラックスしたいなどリラクゼーション目的とした方から痛みや不快な気持ちを改善したいというご希望でいらっしゃる方まで様々です。ご予約の際に問診をしてお客様に合った施術をご提案させていただいています。",
         "Does Shiatsu hurt?": "指圧は痛いですか？",
         "For more sensitive individuals it can hurt, however it is more of a relieving sensation. And per the customer's request we can gradually work from a lighter to deeper massage to ensure a more comfortable experience. Please don't hesitate to let me know if anything is too uncomfortable.": "指圧というと痛いというイメージを持つ人も多いと思いますが、実際は痛い指圧のほうが効いているということはありません。やみくもに痛い施術は皮膚の炎症を引き起こしてしまう場合があります。指圧は心地よい圧を身体の奥まで浸透させるので痛いと思うことがあれば遠慮なく申し出ください。",
@@ -169,11 +174,11 @@ const words = {
         "We are currently only booking via phone.": "現在テキストでのご予約のみとなっておりますので、(510) 684-0386 までメッセージをお送りください(日本語可能)午前9時から午後7時の間にできるだけ早く、返信させていただきます。",
         "What should I wear?": "何を着ていけばいいですか？",
         "We recommend wearing loose fit clothing such as pajamas or sweatpants, there will be a private area where you can change. We also recommend removing accessories and bras.": "服装はリラックスして受けていただけるように、ゆったりとしていて施術を受ける人がストレスなく動ける服装でお願いしています。",
-        "How can I pay?": "支払い方法を教えてください。"　,
-        "We currently accept cash, Zelle, and Venmo.": "現金の他、ゼラ・ベンモに対応してます",
+        "How can I pay?": "支払い方法を教えてください？"　,
+        "We currently accept cash, Zelle, and Venmo.": "現金の他、ゼラ・ベンモに対応してます。",
         "Is there a cancellation fee?": "キャンセル料はかかりますか？",
         "There will not be a fee so long as the reservation is cancelled 24 hours in advance. However, there will be a $50 charge within 24 hours. And in the case that the reservation was never canceled, there will be a $100 charge.": "予約時間の24時間前までにご連絡頂ければキャンセル料はいただいておりません。２４時間以内に連絡を頂いてからのキャンセルとなった場合は５０ドル、連絡がなかった場合は１００ドル請求させて頂いております。あしからずご了承ください。",
-        "What happens if I'm late?": "予約に遅れた場合",
+        "What happens if I'm late?": "予約に遅れた場合？",
         "Service will be provided within the scheduled time. Please note that there will not be any discounts or extensions for late arrivals.": "次の予約のお客様にご迷惑をおかけすることとなりますので延長をして施術をすることはできません。恐れ入りますが時間内での施術となります。",
 
         "Prices and Packages": "料金表、パッケージ",
@@ -189,6 +194,6 @@ const words = {
         "1 Hour Each": "1時間",
         "PREMIUM PACKAGE": "プレミアムパッケージ",
         "4 Personalized Sessions": "4回分",
-        "* You need to pay the full amount of the package at once.": "* パッケージは1回目の使用時に全額を払う必要があります。"
+        "* You need to pay for the full amount of the package at once.": "* パッケージは1回目の使用時に全額を払う必要があります。"
     }
 };
