@@ -188,7 +188,7 @@ const words = {
         "3 Personalized Sessions": "3回分",
         "1 Hour Each": "1時間",
         "PREMIUM PACKAGE": "プレミアムパッケージ",
-        "4 Personalized Sessions": "4回分"
+        "4 Personalized Sessions": "4回分",
         "You need to pay the full amount of the package at the first time.": "パッケージは1回目の使用時に全額を払う必要があります。"
     }
 };
