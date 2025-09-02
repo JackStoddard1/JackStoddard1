@@ -11,7 +11,7 @@ const words = {
         "QUESTIONS": "Q&A",
         "PRICES": "PRICES",
         "ABOUT ME": "ABOUT ME",
-        "Our Location": "住所",
+        "Our Location": "Our Location",
         "Appointment Only": "Appointment Only",
         "Please text me": "Please text me",
         "Opening Hours": "Opening Hours",
