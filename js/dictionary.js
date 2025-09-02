@@ -66,7 +66,7 @@ const words = {
         "Experience": "Experience",
 
         "Do you have a parking lot?": "Do you have a parking lot?",
-        "We have a parking lot on the premises, however if there are no spaces please use the street. Please arrive early as parking tends to fill up quickly.": "We have a parking lot on the premises, however if there are no spaces please use the street. Please arrive early as parking tends to fill up quickly.",
+        "There is ample parking. There are two rows of buildings with parking in between and additional parking in the back. My office is J-210, and building J is located towards the back.": "There is ample parking. There are two rows of buildings with parking in between and additional parking in the back. My office is J-210, and building J is located towards the back.",
         "What is Shiatsu?": "What is Shiatsu?",
         "Shiatsu is a massage technique unique to Japan that originates from traditional asian medicine. It is based on bodywork techniques from Thailand and China that uses pressure points to relieve the body inside out. And in Japanese (指圧 or しあつ) it means \"finger pressure\" due to being a form of acupuncture that utilizes the fingers instead of needles. Where and how quickly the pressure is applied is changed slowly according to the body’s state, bringing it into balance and relieving it of fatigue.": "Shiatsu is a massage technique unique to Japan that originates from traditional asian medicine. It is based on bodywork techniques from Thailand and China that uses pressure points to relieve the body inside out. And in Japanese (指圧 or しあつ) it means \"finger pressure\" due to being a form of acupuncture that utilizes the fingers instead of needles. Where and how quickly the pressure is applied is changed slowly according to the body’s state, bringing it into balance and relieving it of fatigue.",
         "When should I consider Shiatsu?": "When should I consider Shiatsu?",
@@ -163,7 +163,7 @@ const words = {
         "Experience": "経験実績",
 
         "Do you have a parking lot?": "駐車場はありますか？",
-        "We have a parking lot on the premises, however if there are no spaces please use the street. Please arrive early as parking tends to fill up quickly.": "敷地内にも駐車場はありますが、埋まっている場合路上駐車をお願いしてます。時間に余裕を持って来られる事をお勧めします。",
+        "There is ample parking. There are two rows of buildings with parking in between and additional parking in the back. My office is J-210, and building J is located towards the back.": "駐車場は十分にあります。建物は2列に並んでおり、その間に駐車場があり、さらに裏側にも駐車場があります。私のオフィスは奥側の建物内になります(J-210)",
         "What is Shiatsu?": "指圧とは？",
         "Shiatsu is a massage technique unique to Japan that originates from traditional asian medicine. It is based on bodywork techniques from Thailand and China that uses pressure points to relieve the body inside out. And in Japanese (指圧 or しあつ) it means \"finger pressure\" due to being a form of acupuncture that utilizes the fingers instead of needles. Where and how quickly the pressure is applied is changed slowly according to the body’s state, bringing it into balance and relieving it of fatigue.": "日本独特の技法であって手指や手のひらを使い体表に圧を加える技法です。筋肉の疲労物質を除去し筋肉を正常化させ体の均衡を保つことを目的としています。",
         "When should I consider Shiatsu?": "指圧の利用タイミング？",
