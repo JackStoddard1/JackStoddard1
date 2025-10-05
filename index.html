@@ -203,17 +203,24 @@ function changeIcon() {
       <h2 class="l10n">Rei Shiatsu</h2>
       <h3 class="l10n">Winchester Boulevard</h3>
       <div class="row m-0">
-        <div class="col-6 m-0 pl-0">
+        <div class="col-xl-6 col-lg-12 m-0 pl-0">
           <p class="location-text"><br>1101 S Winchester Blvd, 
             <br>Building J, Suite J-210,
             <br>San Jose, CA 95128</p>
         </div>
-        <div class="col-6 m-0">
+        <div class="d-none d-lg-block col-6 m-0 pl-0"> <!-- Hours on Desktop-->
           <p class="location-text"><br><b class="l10n">Opening Hours</b>
-          <br>
-          10AM - 7PM
+            <br>
+            10AM - 7PM
+          </p>
         </div>
-        <img src="images\location_map.jpeg" alt="map_img">
+        <img src="images\location_map.jpeg" alt="map_img"> <!-- Hours on Mobile-->
+        <div class="d-lg-none col-12 m-0 pl-0">
+          <p class="location-text"><br><b class="l10n">Opening Hours</b>
+            <br>
+            10AM - 7PM
+          </p>
+        </div>
       </div>
       <br><br><p class="l10n"></p> 
     </div>
